@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TABLE</title>
+	<big><center>TABLE IN HTML</center></big>
+	<style type="text/css">
+		*{
+			font-family:  Arial, Helvetica, sans-serif;
+			font-weight: 500;
+		}
+		td{
+			background-color: lightcyan;
+			padding: 25px;
+			text-align: center;
+			border-color: skyblue;
+		}
+		table{
+			border-collapse: collapse;
+
+			 font-size: 20px; 
+			 height: 250px; 
+			 width: 900px;
+			 border-color: skyblue;
+		}
+	</style>
+</head>
+<body>
+	<table border="5" align="center">
+		<tr>
+			<td rowspan="2">A</td>
+			<td>B</td>
+			<td rowspan="3">D</td>
+			<td colspan="2">E</td>
+			<td>F</td>
+		</tr>
+		<tr>
+			<td>C</td>
+			<td rowspan="2">G</td>
+			<td rowspan="2">H</td>
+            <td rowspan="2">I</td>
+		</tr>
+		<tr>
+			<td colspan="2">J</td>
+
+		</tr>
+		<tr>
+			<td colspan="3">K</td>
+			<td>L</td>
+			<td colspan="2">M</td>
+		</tr>
+	</table>
+
+</body>
+</html>
